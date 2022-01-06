@@ -1,1 +1,11 @@
 theme: jekyll-theme-midnight
+collections:
+  sites:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "sites"
+    values:
+      layout: "site"
