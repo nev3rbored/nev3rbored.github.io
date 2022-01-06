@@ -1,6 +1,6 @@
 ---
 ---
 {% for el in site.sites %}
-<h2><a href="{{el.site}}">{{ el.title }}</a></h2>
+# [{{el.title}}]({{el.site}})
 {{ el.content }}
 {% endfor %}
