@@ -1,6 +1,8 @@
 ---
 ---
+{% include navbar.html %}
+# Sites
 {% for el in site.sites %}
-# [{{el.title}}]({{el.site}})
+## [{{el.title}}]({{el.site}})
 {{ el.content }}
 {% endfor %}

@@ -1,0 +1,12 @@
+---
+navid: sites
+---
+<nav style="position: absolute; left: 0; top: 0;">
+    {% for item in site.data.nav.items %}
+        {% if item.navid == page.navid %}
+            <li><b>{{ item.title }}</b></li>
+        {% else %}
+            <li><a data-navid="{{ item.navid }}" href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+</nav>

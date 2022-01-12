@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+remote_theme: PoolloverNathan/midnight
 collections:
   sites:
     output: true
@@ -6,6 +6,4 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "sites"
-    values:
-      layout: "site"
+      type: "sites"\
