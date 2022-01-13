@@ -1,0 +1,17 @@
+---
+---
+{
+    "sites": [
+        {% for el in site.sites %}
+        {
+            "title": "{{el.title}}",
+            "url": "{{el.site}}",
+            "added": {{el.added}},
+            "lastChecked": {{el.lastChecked}},
+            "block": {{el.block}},
+            "tags": {{el.tags}},
+            "description": {{el.content}}
+        },
+        {% endfor %}
+    ]
+}
