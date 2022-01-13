@@ -1,6 +1,7 @@
 ---
+navid: sites
 ---
-{% include navbar.html %}
+{% include nav.html %}
 # Sites
 {% for el in site.sites %}
 ## [{{el.title}}]({{el.site}})

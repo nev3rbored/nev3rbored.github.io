@@ -6,4 +6,4 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "sites"\
+      type: "sites"
